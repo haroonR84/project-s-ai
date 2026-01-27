@@ -1,0 +1,19 @@
+{
+  "trigger": "Customer is angry about delayed refund",
+  "decision": {
+    "intent": "Refund Request",
+    "urgency": "high",
+    "confidence": 0.6,
+    "recommended_action": "Process refund"
+  },
+  "escalation": {
+    "priority": "P1",
+    "escalate": true,
+    "target": "Manager"
+  },
+  "policy": {
+    "approved": false,
+    "reason": "Refund requires human approval"
+  },
+  "final_outcome": "Escalate to human"
+}
