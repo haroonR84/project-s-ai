@@ -1,0 +1,7 @@
+timestamp,channel,message,action,priority,source
+2026-01-27T15:58:03.536925,chat,Where is my order?,answer,medium,general_ai
+2026-01-27T15:58:03.536925,whatsapp,Refund delay,escalate,high,knowledge_base
+2026-01-27T15:58:03.536925,voice,Delivery time?,answer,low,knowledge_base
+2026-01-27T15:58:11.751866,chat,Where is my order?,answer,medium,general_ai
+2026-01-27T15:58:11.751866,whatsapp,Refund delay,escalate,high,knowledge_base
+2026-01-27T15:58:11.751866,voice,Delivery time?,answer,low,knowledge_base
