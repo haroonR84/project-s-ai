@@ -1,0 +1,6 @@
+ticket_id,customer_name,customer_email,issue_type,issue_description,priority,status,created_date,assigned_to
+CS1001,Jane Miller,jane.miller@examplecorp.com,Billing,Incorrect charge on last invoice for additional storage.,Medium,Open,2024-06-10T09:34:00Z,Support Agent A
+CS1002,Rajesh Patel,rajesh.patel@innovatek.io,Technical,Unable to access admin dashboard after recent update.,High,In Progress,2024-06-11T14:21:00Z,Support Agent B
+CS1003,Lena Torres,lena.torres@dynacorp.net,Account,Request to update account email address and reset password.,Low,Open,2024-06-11T12:05:00Z,Support Agent C
+CS1004,Michael O'Brien,michael.obrien@technova.org,Feature Request,Suggestion to add multi-factor authentication for better security.,Low,Open,2024-06-09T16:40:00Z,Product Team
+CS1005,Sophia Nguyen,sophia.nguyen@alpha-solutions.com,Technical,Error message when trying to export reports in PDF format.,High,In Progress,2024-06-12T08:15:00Z,Support Agent A

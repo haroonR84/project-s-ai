@@ -1,0 +1,57 @@
+[
+  {
+    "ticket_id": "CS1001",
+    "customer_name": "Jane Miller",
+    "customer_email": "jane.miller@examplecorp.com",
+    "issue_type": "Billing",
+    "issue_description": "Incorrect charge on last invoice for additional storage.",
+    "priority": "Medium",
+    "status": "Open",
+    "created_date": "2024-06-10T09:34:00Z",
+    "assigned_to": "Support Agent A"
+  },
+  {
+    "ticket_id": "CS1002",
+    "customer_name": "Rajesh Patel",
+    "customer_email": "rajesh.patel@innovatek.io",
+    "issue_type": "Technical",
+    "issue_description": "Unable to access admin dashboard after recent update.",
+    "priority": "High",
+    "status": "In Progress",
+    "created_date": "2024-06-11T14:21:00Z",
+    "assigned_to": "Support Agent B"
+  },
+  {
+    "ticket_id": "CS1003",
+    "customer_name": "Lena Torres",
+    "customer_email": "lena.torres@dynacorp.net",
+    "issue_type": "Account",
+    "issue_description": "Request to update account email address and reset password.",
+    "priority": "Low",
+    "status": "Open",
+    "created_date": "2024-06-11T12:05:00Z",
+    "assigned_to": "Support Agent C"
+  },
+  {
+    "ticket_id": "CS1004",
+    "customer_name": "Michael O'Brien",
+    "customer_email": "michael.obrien@technova.org",
+    "issue_type": "Feature Request",
+    "issue_description": "Suggestion to add multi-factor authentication for better security.",
+    "priority": "Low",
+    "status": "Open",
+    "created_date": "2024-06-09T16:40:00Z",
+    "assigned_to": "Product Team"
+  },
+  {
+    "ticket_id": "CS1005",
+    "customer_name": "Sophia Nguyen",
+    "customer_email": "sophia.nguyen@alpha-solutions.com",
+    "issue_type": "Technical",
+    "issue_description": "Error message when trying to export reports in PDF format.",
+    "priority": "High",
+    "status": "In Progress",
+    "created_date": "2024-06-12T08:15:00Z",
+    "assigned_to": "Support Agent A"
+  }
+]

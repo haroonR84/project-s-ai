@@ -1,5 +1,4 @@
 from openai import OpenAI
-import json
 from datetime import datetime
 
 client = OpenAI()
@@ -20,23 +19,37 @@ Rules:
 
     response = client.responses.create(
         model="gpt-4.1-mini",
-        input=prompt
+        input=[
+            {
+                "role": "system",
+                "content": "You ONLY output valid JSON. No text. No explanation."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
+        ]
     )
 
-    return response.output_text
+    output = response.output[0].content[0].text.strip()
+
+    start = output.find("[")
+    end = output.rfind("]") + 1
+
+    return output[start:end]
 
 
 if __name__ == "__main__":
-    data_type = "frequently asked questions"
-    count = 10
+    data_type = "customer support tickets"
+    count = 5
 
-    output = generate_synthetic_data(data_type, count)
+    json_output = generate_synthetic_data(data_type, count)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"{data_type.replace(' ', '_')}_{timestamp}.json"
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(output)
+        f.write(json_output)
 
     print(f"Generated {count} {data_type}")
     print(f"Saved to file: {filename}")
