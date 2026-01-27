@@ -1,0 +1,5 @@
+{
+  "policy": "Password Reset Policy",
+  "approved": true,
+  "reason": "Password resets are automated"
+}
