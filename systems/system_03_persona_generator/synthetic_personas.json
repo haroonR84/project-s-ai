@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Ayesha Khan",
+    "role": "Product Manager",
+    "industry": "Technology",
+    "pain_points": [
+      "Balancing stakeholder priorities",
+      "Tight product release deadlines",
+      "Aligning feature development with user needs"
+    ],
+    "goals": [
+      "Deliver high-quality products on schedule",
+      "Improve cross-team collaboration",
+      "Increase user satisfaction and retention"
+    ],
+    "communication_style": "Direct, data-driven, collaborative",
+    "typical_requests": [
+      "Market research summaries",
+      "User feedback analysis",
+      "Project timeline updates"
+    ]
+  },
+  {
+    "name": "Marcus Thompson",
+    "role": "Financial Analyst",
+    "industry": "Finance",
+    "pain_points": [
+      "Inaccurate or delayed data",
+      "Complex regulatory compliance",
+      "Pressure to deliver actionable insights quickly"
+    ],
+    "goals": [
+      "Provide timely and accurate financial reports",
+      "Identify investment opportunities",
+      "Ensure regulatory compliance"
+    ],
+    "communication_style": "Formal, precise, detail-oriented",
+    "typical_requests": [
+      "Latest market trend reports",
+      "Risk assessment summaries",
+      "Financial modeling assistance"
+    ]
+  },
+  {
+    "name": "Lina Rodriguez",
+    "role": "HR Specialist",
+    "industry": "Healthcare",
+    "pain_points": [
+      "High employee turnover",
+      "Managing diverse workforce needs",
+      "Ensuring compliance with labor laws"
+    ],
+    "goals": [
+      "Enhance employee engagement",
+      "Implement effective training programs",
+      "Streamline recruitment and onboarding"
+    ],
+    "communication_style": "Empathetic, clear, supportive",
+    "typical_requests": [
+      "Employee satisfaction survey templates",
+      "Best practices for conflict resolution",
+      "Compliance guideline updates"
+    ]
+  },
+  {
+    "name": "David Chen",
+    "role": "Marketing Director",
+    "industry": "Retail",
+    "pain_points": [
+      "Measuring ROI on campaigns",
+      "Reaching target audience effectively",
+      "Adapting to rapidly changing market trends"
+    ],
+    "goals": [
+      "Increase brand awareness",
+      "Drive online and in-store sales",
+      "Leverage data for targeted marketing"
+    ],
+    "communication_style": "Persuasive, creative, strategic",
+    "typical_requests": [
+      "Competitive analysis reports",
+      "Customer segmentation data",
+      "Content calendar recommendations"
+    ]
+  },
+  {
+    "name": "Nadia Petrova",
+    "role": "Supply Chain Manager",
+    "industry": "Manufacturing",
+    "pain_points": [
+      "Supply disruptions and delays",
+      "Inventory management challenges",
+      "Cost control under fluctuating market conditions"
+    ],
+    "goals": [
+      "Optimize supply chain efficiency",
+      "Reduce operational costs",
+      "Implement sustainable sourcing practices"
+    ],
+    "communication_style": "Analytical, pragmatic, concise",
+    "typical_requests": [
+      "Supplier performance metrics",
+      "Inventory forecasting models",
+      "Logistics optimization strategies"
+    ]
+  }
+]

@@ -1,51 +1,54 @@
+import json
 from openai import OpenAI
-from datetime import datetime
 
 client = OpenAI()
 
-def generate_personas(count):
+def generate_personas(count=5):
     prompt = f"""
-Generate {count} synthetic customer personas.
+You are a synthetic persona generator.
 
-Each persona must include:
-- persona_id
-- age_range
-- location_type (urban/suburban/rural)
-- customer_type (new/returning/premium)
-- preferred_channel (chat/whatsapp/voice)
-- tone (calm/neutral/angry)
-- common_intents (array)
-- escalation_likelihood (low/medium/high)
+Create {count} realistic synthetic personas.
 
-Rules:
+RULES:
 - No real people
-- No real companies
-- Output ONLY a JSON array
+- Business-safe
+- Diverse roles and industries
+- Output ONLY valid JSON
+- Each persona must include:
+  - name
+  - role
+  - industry
+  - pain_points (array)
+  - goals (array)
+  - communication_style
+  - typical_requests (array)
 """
 
     response = client.responses.create(
         model="gpt-4.1-mini",
         input=[
-            {"role": "system", "content": "Output ONLY valid JSON. No explanation."},
-            {"role": "user", "content": prompt}
+            {
+                "role": "system",
+                "content": "Output JSON only. No explanation."
+            },
+            {
+                "role": "user",
+                "content": prompt
+            }
         ]
     )
 
-    text = response.output[0].content[0].text.strip()
+    text = response.output_text.strip()
     start = text.find("[")
     end = text.rfind("]") + 1
-    return text[start:end]
+
+    return json.loads(text[start:end])
 
 
 if __name__ == "__main__":
-    count = 8
-    personas_json = generate_personas(count)
+    personas = generate_personas(5)
 
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"customer_personas_{timestamp}.json"
+    with open("synthetic_personas.json", "w", encoding="utf-8") as f:
+        json.dump(personas, f, indent=2)
 
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(personas_json)
-
-    print(f"Generated {count} customer personas")
-    print(f"Saved to file: {filename}")
+    print("Synthetic personas generated and saved.")
