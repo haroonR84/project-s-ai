@@ -1,0 +1,12 @@
+timestamp,channel,message,action,priority,source
+2026-01-27T16:02:31.348477,chat,hellow,answer,medium,general_ai
+2026-01-27T16:02:33.407681,whatsapp,hello,answer,medium,general_ai
+2026-01-27T16:02:42.294663,chat,hellow,answer,medium,general_ai
+2026-01-27T16:03:19.659002,chat,hi,answer,medium,general_ai
+2026-01-27T16:03:49.433731,chat,hi,answer,medium,general_ai
+2026-01-27T16:05:29.474591,chat,want my refund ,answer,medium,general_ai
+2026-01-27T16:06:09.521828,whatsapp,hi,answer,medium,general_ai
+2026-01-27T16:06:21.555074,whatsapp,where is my order,answer,medium,general_ai
+2026-01-27T16:06:42.196839,voice,helloww,answer,medium,general_ai
+2026-01-27T16:08:33.802900,whatsapp,hi,answer,medium,general_ai
+2026-01-27T16:13:55.276383,voice,"No, no, no.",answer,medium,general_ai
