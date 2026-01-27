@@ -1,0 +1,82 @@
+[
+  {
+    "persona_id": "persona_001",
+    "age_range": "25-34",
+    "location_type": "urban",
+    "customer_type": "new",
+    "preferred_channel": "chat",
+    "tone": "neutral",
+    "common_intents": ["product inquiry", "pricing details", "shipping information"],
+    "escalation_likelihood": "low"
+  },
+  {
+    "persona_id": "persona_002",
+    "age_range": "35-44",
+    "location_type": "suburban",
+    "customer_type": "returning",
+    "preferred_channel": "voice",
+    "tone": "calm",
+    "common_intents": ["order status", "refund request", "technical support"],
+    "escalation_likelihood": "medium"
+  },
+  {
+    "persona_id": "persona_003",
+    "age_range": "18-24",
+    "location_type": "urban",
+    "customer_type": "new",
+    "preferred_channel": "whatsapp",
+    "tone": "neutral",
+    "common_intents": ["account setup", "promotion inquiry", "product recommendation"],
+    "escalation_likelihood": "low"
+  },
+  {
+    "persona_id": "persona_004",
+    "age_range": "45-54",
+    "location_type": "rural",
+    "customer_type": "premium",
+    "preferred_channel": "voice",
+    "tone": "calm",
+    "common_intents": ["loyalty benefits", "priority support", "billing questions"],
+    "escalation_likelihood": "medium"
+  },
+  {
+    "persona_id": "persona_005",
+    "age_range": "55-64",
+    "location_type": "suburban",
+    "customer_type": "returning",
+    "preferred_channel": "chat",
+    "tone": "angry",
+    "common_intents": ["complaint", "delivery delay", "refund status"],
+    "escalation_likelihood": "high"
+  },
+  {
+    "persona_id": "persona_006",
+    "age_range": "30-39",
+    "location_type": "urban",
+    "customer_type": "premium",
+    "preferred_channel": "whatsapp",
+    "tone": "neutral",
+    "common_intents": ["upgrade plan", "new features", "technical assistance"],
+    "escalation_likelihood": "low"
+  },
+  {
+    "persona_id": "persona_007",
+    "age_range": "40-49",
+    "location_type": "rural",
+    "customer_type": "new",
+    "preferred_channel": "voice",
+    "tone": "angry",
+    "common_intents": ["service outage", "technical support", "account issues"],
+    "escalation_likelihood": "high"
+  },
+  {
+    "persona_id": "persona_008",
+    "age_range": "20-29",
+    "location_type": "suburban",
+    "customer_type": "returning",
+    "preferred_channel": "chat",
+    "tone": "calm",
+    "common_intents": ["order modification", "promo codes", "payment issues"],
+    "escalation_likelihood": "medium"
+  }
+]
