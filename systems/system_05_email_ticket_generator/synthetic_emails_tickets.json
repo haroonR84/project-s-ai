@@ -1,0 +1,56 @@
+[
+  {
+    "persona_name": "Ayesha Khan",
+    "channel": "email",
+    "subject": "Request for Updated User Feedback Analysis",
+    "body": "Hi Team,\n\nCould you please provide the latest user feedback analysis for our new feature rollout? I need detailed insights to align our next sprint priorities more tightly with user needs. A summary with key data points and trends would be ideal.\n\nThanks,\nAyesha",
+    "intent": "Request detailed user feedback analysis",
+    "urgency": "medium",
+    "expected_action": "reply"
+  },
+  {
+    "persona_name": "Marcus Thompson",
+    "channel": "ticket",
+    "subject": "Urgent: Discrepancy in Q2 Financial Data",
+    "body": "There appears to be an inconsistency in the Q2 revenue figures reported in the dashboard versus the raw data extracts. This discrepancy affects regulatory reporting compliance. Please investigate and reconcile the data urgently.\n\nRegards,\nMarcus",
+    "intent": "Report data discrepancy and request resolution",
+    "urgency": "high",
+    "expected_action": "resolve"
+  },
+  {
+    "persona_name": "Lina Rodriguez",
+    "channel": "email",
+    "subject": "Compliance Guideline Updates Needed for Recruitment Process",
+    "body": "Hello Compliance Team,\n\nCould you send me the latest updates on labor law compliance that affect our recruitment and onboarding? Ensuring we are current is crucial to streamline processes and maintain employee trust.\n\nBest regards,\nLina",
+    "intent": "Request for updated compliance guidelines",
+    "urgency": "medium",
+    "expected_action": "reply"
+  },
+  {
+    "persona_name": "David Chen",
+    "channel": "ticket",
+    "subject": "Request for Customer Segmentation Data to Refine Targeting",
+    "body": "We need more granular customer segmentation data to improve targeting for our upcoming campaigns. Please prioritize delivery of this data to meet next week's campaign launch timelines.\n\nThanks,\nDavid",
+    "intent": "Request for customer segmentation data",
+    "urgency": "high",
+    "expected_action": "resolve"
+  },
+  {
+    "persona_name": "Nadia Petrova",
+    "channel": "email",
+    "subject": "Supplier Performance Metrics Report Needed",
+    "body": "Dear Analytics Team,\n\nPlease provide the latest supplier performance metrics report to help us identify bottlenecks and optimize the supply chain. A focus on recent delays and cost variations would be greatly appreciated.\n\nRegards,\nNadia",
+    "intent": "Request supplier performance report",
+    "urgency": "medium",
+    "expected_action": "reply"
+  },
+  {
+    "persona_name": "Ayesha Khan",
+    "channel": "ticket",
+    "subject": "Project Timeline Update Request for Stakeholder Review",
+    "body": "Please provide the updated project timeline including current milestones and any delays encountered. This will assist in balancing stakeholder priorities and ensuring alignment ahead of our next release.\n\nThanks,\nAyesha",
+    "intent": "Request updated project timeline",
+    "urgency": "medium",
+    "expected_action": "resolve"
+  }
+]
