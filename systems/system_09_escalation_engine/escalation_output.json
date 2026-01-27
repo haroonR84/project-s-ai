@@ -1,0 +1,7 @@
+{
+  "priority_level": "P1",
+  "escalate": true,
+  "escalation_target": "Senior Support / Manager",
+  "sla_hours": 1,
+  "escalation_reason": "High urgency case"
+}
