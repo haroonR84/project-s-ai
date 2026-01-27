@@ -1,0 +1,26 @@
+[
+  {
+    "scenario": "Normal Operations",
+    "total_cases": 50,
+    "estimated_escalations": 5,
+    "average_sla_hours": 8,
+    "risk_level": "Low",
+    "recommendation": "Normal staffing"
+  },
+  {
+    "scenario": "Refund Spike",
+    "total_cases": 120,
+    "estimated_escalations": 48,
+    "average_sla_hours": 2,
+    "risk_level": "Medium",
+    "recommendation": "Normal staffing"
+  },
+  {
+    "scenario": "System Outage",
+    "total_cases": 200,
+    "estimated_escalations": 120,
+    "average_sla_hours": 2,
+    "risk_level": "High",
+    "recommendation": "Increase staff"
+  }
+]
