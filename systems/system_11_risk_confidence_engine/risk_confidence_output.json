@@ -1,0 +1,6 @@
+{
+  "risk_score": 82,
+  "risk_level": "High",
+  "confidence_adjusted": 0.19,
+  "handling_guidance": "Human review required"
+}
