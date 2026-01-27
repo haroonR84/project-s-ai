@@ -1,0 +1,8 @@
+{
+  "source": "rule",
+  "intent": "Refund Requests",
+  "urgency": "high",
+  "recommended_action": "Escalate to billing team",
+  "confidence": 1.0,
+  "explanation": "Matched business rule: Refund Requests"
+}
