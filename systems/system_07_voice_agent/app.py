@@ -36,9 +36,18 @@ if st.button("🎙️ Record"):
 
     # AI response
     response = client.responses.create(
-        model="gpt-4.1-mini",
-        input=f"Customer said: {user_text}. Respond politely and helpfully."
-    )
+    model="gpt-4.1-mini",
+    input=[
+        {
+            "role": "system",
+            "content": "You are a customer service AI. ALWAYS respond in clear, professional English only."
+        },
+        {
+            "role": "user",
+            "content": f"Customer said: {user_text}. Respond politely and helpfully."
+        }
+    ]
+)
 
     reply_text = response.output_text
     st.write(f"🤖 AI says: {reply_text}")
