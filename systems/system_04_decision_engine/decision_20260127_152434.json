@@ -1,0 +1,7 @@
+{
+  "action": "escalate",
+  "priority": "high",
+  "response_tone": "empathetic",
+  "suggested_reply": "We sincerely apologize for the delay and lack of response. We are escalating your issue immediately and will update you via WhatsApp as soon as possible.",
+  "confidence_score": 0.95
+}
