@@ -1,7 +1,19 @@
-System 04 – Customer Service Decision Engine
+SYSTEM 04 — Decision Engine
 
-This system decides how customer issues should be handled.
-It outputs escalation decisions, priority, tone,
-and suggested replies in strict JSON.
+Purpose:
+Central authority for deciding actions based on intent and confidence.
 
-Used by chatbots, WhatsApp agents, and voice agents.
+Rules:
+- No UI logic
+- No channel logic
+- No knowledge base access
+- No analytics feedback
+
+Inputs:
+intent_level
+confidence
+lead_score
+
+Outputs:
+action
+reason
