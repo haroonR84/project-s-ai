@@ -1,60 +1,81 @@
-Synthetic AI Operating System (S-AI)
+# 🧠 Synthetic AI Operating System (S-AI)
 
-A modular AI-driven operations platform that combines decision intelligence, automation workflows, risk modeling, and analytics dashboards into a unified operational system.
+A modular AI platform designed to orchestrate intelligent decision-making, automation workflows, risk evaluation, and operational analytics within a unified architecture.
 
-Architecture Overview
+S-AI transforms operational inputs into structured, risk-aware, and auditable automation outcomes through layered system intelligence.
 
-Input
-→ Omni Brain
-→ Decision Engine
-→ Risk & Confidence Engine
-→ Automation Layer
-→ KPI Logging
-→ Human Escalation
+---
 
-Platform Layers
-Core Intelligence
+## 🏗 System Flow Architecture
 
-Synthetic Data Engine
+Input  
+↓  
+Omni Brain (Intent Classification & Context Layer)  
+↓  
+Decision Engine (Rule + AI Logic)  
+↓  
+Risk & Confidence Engine  
+↓  
+Automation Layer (Execution Agents)  
+↓  
+KPI Logging & Analytics  
+↓  
+Human Escalation (If Required)
 
-Decision Engine
+---
 
-Hybrid Decision Engine
+## 🔷 Platform Layers
 
-Risk & Confidence Engine
+### 1️⃣ Core Intelligence
+- Synthetic Data Engine  
+- Decision Engine  
+- Hybrid Decision Engine  
+- Risk & Confidence Engine  
+- What-If Simulator  
+- Data Scaler  
 
-What-If Simulator
+### 2️⃣ Brain Layer
+- Omni Brain  
+- Knowledge Base  
+- Brain with Knowledge  
+- Policy Compliance Bot  
+- Automation Brain  
 
-Brain Layer
+### 3️⃣ Automation Layer
+- Email Ticket Generator  
+- Web Chatbot  
+- WhatsApp Logic  
+- Voice Agent  
+- Escalation Engine  
 
-Omni Brain
+### 4️⃣ Analytics Layer
+- KPI Logger  
+- Unified Dashboard  
+- Full Platform Demo  
 
-Knowledge Base
+---
 
-Policy Compliance Bot
+## 🔎 Example Use Case
 
-Automation Brain
+A customer submits a refund request exceeding $500.
 
-Automation Layer
+1. Omni Brain classifies the request as **Finance – High Impact**  
+2. Decision Engine evaluates rules and AI logic  
+3. Risk Engine calculates confidence score  
+4. Escalation threshold is triggered  
+5. KPI logger records the interaction  
+6. Case is routed for human review  
 
-Email Ticket Generator
+This ensures intelligent automation with governance and control.
 
-Chatbot
+---
 
-WhatsApp Logic
+## ▶ Run the Platform
 
-Voice Agent
-
-Escalation Engine
-
-Analytics Layer
-
-KPI Logger
-
-Unified Dashboard
-
-Full Platform Demo
-
- Run Demo
+```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+Or if using FastAPI:
+
+uvicorn main:app --reload
