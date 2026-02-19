@@ -1,7 +1,0 @@
-{
-  "intent": "request_refund_due_to_delay",
-  "urgency": "high",
-  "confidence": 0.95,
-  "recommended_action": "Review the order status and company refund policy immediately. If the delay is confirmed, process the refund promptly or offer an alternative solution to retain customer satisfaction.",
-  "explanation": "Customer is experiencing a significant delay (10 days) and is demanding an immediate refund, indicating high urgency to resolve the dissatisfaction quickly to maintain customer trust and comply with service standards."
-}
